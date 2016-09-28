@@ -1,0 +1,11 @@
+E:\vs\project\vbProject\凸轮生成\凸轮生成\bin\Debug\凸轮生成.exe
+E:\vs\project\vbProject\凸轮生成\凸轮生成\bin\Debug\凸轮生成.pdb
+E:\vs\project\vbProject\凸轮生成\凸轮生成\bin\Debug\凸轮生成.xml
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\凸轮生成.Form1.resources
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\凸轮生成.Resources.resources
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\凸轮生成.exe
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\凸轮生成.xml
+E:\vs\project\vbProject\凸轮生成\凸轮生成\obj\x86\Debug\凸轮生成.pdb
