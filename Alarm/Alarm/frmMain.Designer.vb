@@ -28,6 +28,7 @@ Partial Class frmMain
         Me.NotifyMenu = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.grbAlarmList = New System.Windows.Forms.GroupBox()
         Me.lsvAlarmList = New System.Windows.Forms.ListView()
@@ -91,9 +92,16 @@ Partial Class frmMain
         '
         'ExitToolStripMenuItem
         '
+        Me.ExitToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingToolStripMenuItem})
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.ExitToolStripMenuItem.Text = "About"
+        '
+        'SettingToolStripMenuItem
+        '
+        Me.SettingToolStripMenuItem.Name = "SettingToolStripMenuItem"
+        Me.SettingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SettingToolStripMenuItem.Text = "Setting"
         '
         'ExitToolStripMenuItem1
         '
@@ -447,7 +455,7 @@ Partial Class frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1052, 537)
+        Me.ClientSize = New System.Drawing.Size(1052, 534)
         Me.Controls.Add(Me.grbApro)
         Me.Controls.Add(Me.btnStop2)
         Me.Controls.Add(Me.grbApr)
@@ -508,4 +516,5 @@ Partial Class frmMain
     Friend WithEvents txbRmdHr2 As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents btnStop2 As Button
+    Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
 End Class

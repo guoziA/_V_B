@@ -11,3 +11,17 @@ C:\VS Prj\Alarm\Alarm\Alarm\Alarm\obj\Debug\Alarm.xml
 C:\VS Prj\Alarm\Alarm\Alarm\Alarm\obj\Debug\Alarm.pdb
 C:\VS Prj\Alarm\Alarm\Alarm\Alarm\obj\Debug\Alarm.AlarmMgr.resources
 C:\VS Prj\Alarm\Alarm\Alarm\Alarm\obj\Debug\Alarm.frmMain.resources
+C:\VS Prj\_V_B\Alarm\Alarm\bin\Debug\Alarm.exe.config
+C:\VS Prj\_V_B\Alarm\Alarm\bin\Debug\Alarm.exe
+C:\VS Prj\_V_B\Alarm\Alarm\bin\Debug\Alarm.pdb
+C:\VS Prj\_V_B\Alarm\Alarm\bin\Debug\Alarm.xml
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.vbprojResolveAssemblyReference.cache
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.AlarmMgr.resources
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.frmMain.resources
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.frmSetting.resources
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.Resources.resources
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.vbproj.GenerateResource.Cache
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.vbproj.CoreCompileInputs.cache
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.exe
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.xml
+C:\VS Prj\_V_B\Alarm\Alarm\obj\Debug\Alarm.pdb

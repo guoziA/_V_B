@@ -238,10 +238,6 @@ error_process:
         End
     End Sub
 
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
-        MessageBox.Show("hehe")
-    End Sub
-
     Private Sub Stop_Click(sender As Object, e As EventArgs) Handles btnStop.Click
         On Error Resume Next
         Dim i = 1
@@ -325,9 +321,12 @@ error_process:
         Loop
 
         If isAlarmPassing Then
-            Me.Focus()
-            Me.btnStop.Enabled = True
             If Not isPlaying Then
+                Me.Visible = True
+                Me.WindowState = FormWindowState.Normal
+                Me.NotifyIcon1.Visible = False
+                Me.Focus()
+                Me.btnStop.Enabled = True
                 My.Computer.Audio.Play(Application.StartupPath & "\sound.wav", AudioPlayMode.BackgroundLoop)
                 isPlaying = True
             End If
@@ -447,5 +446,9 @@ error_process:
             Me.DeleteToolStripMenuItem.Enabled = True
             Me.ModifyToolStripMenuItem.Enabled = True
         End If
+    End Sub
+
+    Private Sub SettingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SettingToolStripMenuItem.Click
+        frmSetting.Show()
     End Sub
 End Class
